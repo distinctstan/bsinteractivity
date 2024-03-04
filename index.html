@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>BS Interactivity</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<style type="text/css">
+		p {
+			font-size: 34px;
+		}
+
+		.policy {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+
+		.policy button {
+			width: 5%;
+			align-self: flex-end;
+		}
+	</style>
+</head>
+<body onload="alert('Hello World, Page Loaded!')">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="alert alert-info alert-dismissible fade show" role="alert">
+					<p>Learn Boostrap!</p>
+					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor.</span>
+					<button class="btn-close" data-bs-dismiss="alert"></button>
+				</div>
+				<div class="alert alert-info alert-dismissible policy" role="alert">
+					<h4>PRIVACY POLICY</h4>
+					<span>This our site accepts cookies, you must accept it to continue.</span>
+					<button class="btn btn-primary" data-bs-dismiss="alert">Okay</button>
+				</div>
+				<input type="button" onclick="alert('You clicked me!')" name="" value="Format Hard Drive">
+			</div>
+		</div>
+	</div>
+
+	<script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		// var name = "John";
+		// alert(name);
+
+		var name="John", 
+			academy="Moat", 
+			age=30;
+
+		var _2peop$lelagos = "";
+		document.write("<h1>Hello World!</h1>");
+		document.write("Hello Guys!");
+
+		var student1="Mike";
+		var student2="Emma";
+		var student3="Sarah";
+
+		var allstudents = student1 + student2 + student3;
+		// alert(allstudents);
+
+		var pi = 3.14;
+		var d = 12
+
+		var c = pi * d;
+		console.log(c);
+		// alert(c);
+
+		// var result = prompt("Enter your name");
+		// alert("Good day " + result);
+
+	</script>
+</body>
+</html>
